@@ -16,7 +16,7 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        oldRotation += 0.1f;
+        oldRotation += 0.3f;
         this.objectTransform.eulerAngles = new Vector3(0, oldRotation, 0);
     }
 }
